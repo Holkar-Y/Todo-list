@@ -11,15 +11,16 @@
     --teal: #11a89e;
 }
 [theme="light"]{
-    --background: #fefae0;
-    --secondaryBackground: #faedcd;
-    --text: #ce9a66;
-    --purple: #f4e8ca;
-    --teal: #ccd5ae;
+    --background: #F7F5FF;
+    --secondaryBackground: #FFFFFF;
+    --text: #3C3C4E;
+    --purple: #a98dec;
+    --teal: #56e4d4;
 }
 body{
     background-color: var(--background);
     color: var(--text);
+    padding: 33px;
 }
 .container{
     display: flex;
@@ -148,7 +149,7 @@ button{
     width: 20px;
     height: 20px;
 }
-.completed{
+.completed p{
     text-decoration: line-through;
     color: var(--teal);
 }
